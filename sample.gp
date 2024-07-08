@@ -1,13 +1,13 @@
 #
-# Gnuplot ã® æ£’ã‚°ãƒ©ãƒ• ã®ä¾‹
+# Gnuplot ‚Ì –_ƒOƒ‰ƒt ‚Ì—á
 #
 unset key
 set style fill solid
 set boxwidth 0.6
 set yrange [0:50]
 set grid
-set title "å¤§è°·é¸æ‰‹ã®ãƒ›ãƒ¼ãƒ ãƒ©ãƒ³è¨˜éŒ²"
-set xlabel "ã‚·ãƒ¼ã‚ºãƒ³"
-set ylabel "æœ¬" offset graph 0,0.5 rotate by 0
+set title "‘å’J‘Iè‚Ìƒz[ƒ€ƒ‰ƒ“‹L˜^"
+set xlabel "ƒV[ƒYƒ“"
+set ylabel "–{" offset graph 0,0.5 rotate by 0
 
 plot "Otani.txt" using 1:2:xtic(1) with boxes linecolor "skyblue"
